@@ -1,0 +1,36 @@
+// Quiz de autoevaluación UD01 · Descubrir 1: Ética, legalidad y seguridad de la información
+// Formato GIFT para Moodle: Banco de preguntas > Importar > GIFT
+// Codificación UTF-8 · No calificable
+
+$CATEGORY: $course$/top/Hacking ético/UD01 Introducción/Descubrir 1
+
+::UD01-01 Hacker ético::¿Qué distingue a un hacker ético de un ciberdelincuente?{
+=Que actúa con autorización expresa y dentro de un alcance pactado#Correcto. El hacker ético se define por la autorización, no por la técnica.
+~Que usa herramientas diferentes#Incorrecto. Las herramientas suelen ser las mismas.
+~Que solo ataca sistemas de grandes empresas#Incorrecto. El tamaño de la víctima no es relevante.
+~Que no publica las vulnerabilidades que encuentra#Incorrecto. Lo que importa es la autorización y la comunicación responsable.
+}
+
+::UD01-04 Tríada CIA::Un atacante modifica las notas guardadas en la base de datos de un instituto sin ser detectado. ¿Qué principio de seguridad se ha vulnerado principalmente?{
+=Integridad#Correcto. Se han alterado los datos sin autorización.
+~Confidencialidad#Incorrecto. No se trata de que alguien haya leído los datos, sino de que los ha cambiado.
+~Disponibilidad#Incorrecto. El servicio sigue funcionando.
+~No repudio#Incorrecto. No es el principio principal afectado.
+}
+
+::UD01-05 Disponibilidad::Un ataque de denegación de servicio afecta principalmente a la...{
+=disponibilidad#Correcto.
+~confidencialidad
+~integridad
+~autenticidad
+}
+
+::UD01-10 Legalidad::En España, acceder sin autorización a un sistema informático vulnerando sus medidas de seguridad está tipificado como delito en el Código Penal, aunque no se dañe ni se robe nada.{TRUE#Incorrecto. El artículo 197 bis del Código Penal castiga el acceso no autorizado aunque no haya daños.#Correcto. El artículo 197 bis castiga el acceso no autorizado.}
+
+::UD01-14 Tipos de hacker::Una persona que encuentra una vulnerabilidad sin permiso y la comunica a la empresa sin explotarla se suele clasificar como hacker de sombrero...{
+=gris#Correcto. Su intención no es maliciosa, pero actuó sin autorización.
+~blanco#Incorrecto. El sombrero blanco actúa siempre con autorización.
+~negro#Incorrecto. El sombrero negro actúa con fines maliciosos.
+~rojo#Incorrecto. No es una categoría habitual.
+}
+

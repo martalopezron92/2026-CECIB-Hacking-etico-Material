@@ -1,0 +1,36 @@
+// Quiz de autoevaluación UD01 · Descubrir 3: El test de intrusión
+// Formato GIFT para Moodle: Banco de preguntas > Importar > GIFT
+// Codificación UTF-8 · No calificable
+
+$CATEGORY: $course$/top/Hacking ético/UD01 Introducción/Descubrir 3
+
+::UD01-06 Caja negra::En una auditoría de caja negra, el auditor...{
+=no dispone de información previa sobre el sistema, como un atacante externo#Correcto.
+~tiene acceso completo al código fuente y a la documentación#Incorrecto. Eso es caja blanca.
+~dispone de información parcial, como un usuario sin privilegios#Incorrecto. Eso es caja gris.
+~solo revisa la documentación sin realizar pruebas#Incorrecto. Eso sería una auditoría documental.
+}
+
+::UD01-07 Fases::Ordena las fases de un test de intrusión.{
+=Primera fase -> Reconocimiento
+=Segunda fase -> Escaneo y enumeración
+=Tercera fase -> Explotación
+=Cuarta fase -> Post-explotación
+=Quinta fase -> Informe
+}
+
+::UD01-08 Reconocimiento pasivo::Buscar información pública de una organización en su web, en redes sociales y en registros DNS sin interactuar directamente con sus sistemas es un ejemplo de reconocimiento pasivo.{TRUE#Incorrecto. Es pasivo porque no se envía tráfico a los sistemas objetivo.#Correcto. No se envía tráfico a los sistemas objetivo.}
+
+::UD01-09 Alcance::Antes de iniciar un test de intrusión, ¿qué documento es imprescindible?{
+=Un acuerdo firmado que fije el alcance, las condiciones y la autorización#Correcto. Sin autorización por escrito, la actividad puede ser delito.
+~El informe final de vulnerabilidades#Incorrecto. El informe se entrega al terminar.
+~La lista de exploits que se van a usar#Incorrecto. Puede formar parte del plan, pero no sustituye a la autorización.
+~Un contrato de confidencialidad con el proveedor de Internet#Incorrecto.
+}
+
+::UD01-15 IA como tutora::¿Cuál de estas preguntas a la IA respeta la regla de oro de la asignatura?{
+=¿Qué significa que nmap muestre el puerto 80 como filtered y qué debería investigar?#Correcto. Pregunta por el concepto y por el siguiente paso.
+~Dame la flag del reto 5#Incorrecto. Pide la solución.
+~Escríbeme el exploit para la máquina del laboratorio#Incorrecto. La IA haría el trabajo por ti.
+~Resuélveme el reto combinado paso a paso#Incorrecto. Pide la solución.
+}

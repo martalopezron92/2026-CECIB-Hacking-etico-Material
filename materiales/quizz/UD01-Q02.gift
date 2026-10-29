@@ -1,0 +1,36 @@
+// Quiz de autoevaluación UD01 · Descubrir 2: Amenazas y vulnerabilidades
+// Formato GIFT para Moodle: Banco de preguntas > Importar > GIFT
+// Codificación UTF-8 · No calificable
+
+$CATEGORY: $course$/top/Hacking ético/UD01 Introducción/Descubrir 2
+
+::UD01-02 Vulnerabilidad::Una debilidad en un sistema que podría ser aprovechada para comprometer su seguridad se denomina...{
+=vulnerabilidad#Correcto.
+~amenaza#Incorrecto. La amenaza es el agente o evento que podría aprovechar la debilidad.
+~exploit#Incorrecto. El exploit es el código o la técnica que aprovecha la vulnerabilidad.
+~riesgo#Incorrecto. El riesgo combina probabilidad e impacto.
+}
+
+::UD01-03 Exploit::Un fragmento de código diseñado para aprovechar una vulnerabilidad concreta es un...{
+=exploit#Correcto.
+~payload#Incorrecto. El payload es lo que se ejecuta tras la explotación.
+~parche#Incorrecto. El parche corrige la vulnerabilidad.
+~escáner#Incorrecto. El escáner detecta, no explota.
+}
+
+::UD01-11 Hash::Una función hash criptográfica es...{
+=determinista y no se puede invertir para obtener la entrada original#Correcto.
+~reversible si se conoce la clave#Incorrecto. Las funciones hash no usan clave para invertirse.
+~un tipo de codificación como Base64#Incorrecto. Base64 se decodifica fácilmente.
+~aleatoria, por lo que cada vez da un resultado distinto#Incorrecto. La misma entrada siempre produce la misma salida.
+}
+
+::UD01-12 Codificar no es cifrar::Guardar contraseñas en Base64 protege su confidencialidad porque no se pueden leer a simple vista.{FALSE#Incorrecto. Base64 es una codificación sin clave y cualquiera puede decodificarla.#Correcto. Base64 es una codificación sin clave. Cualquiera puede decodificarla.}
+
+::UD01-13 Diccionario::¿Por qué se puede recuperar la contraseña original de algunos hashes MD5 en webs como CrackStation?{
+=Porque contienen hashes precalculados de contraseñas comunes y comparan el hash buscado#Correcto. Es un ataque de diccionario.
+~Porque MD5 se puede descifrar con una clave pública#Incorrecto. MD5 no usa claves.
+~Porque invierten matemáticamente la función hash#Incorrecto. Las funciones hash no se pueden invertir.
+~Porque MD5 guarda la contraseña al final del hash#Incorrecto.
+}
+

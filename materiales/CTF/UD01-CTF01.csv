@@ -1,0 +1,42 @@
+name,category,description,value,type,state,max_attempts,flags,tags,hints
+Caso guiado 1 · Hash MD5,UD01 · Cripto y codificación,"La contraseña es `LearnTheHashFunction`. Calcula su hash **MD5** y envíalo como `flag{md5}`.
+
+Sigue el caso guiado 1 de tu práctica y asegúrate de entender por qué se usa `echo -n`.
+
+> Recuerda: además de la flag, rellena la **ficha de razonamiento** del reto. Pregunta a la IA por el *qué* y el *porqué*, nunca por la solución.",50,standard,visible,0,"[{""type"": ""static"", ""content"": ""flag{b2f2d6b27b264d83fe1abe0169b7613e}"", ""data"": """"}]","guiado,hash","[{""content"": ""¿Qué pasa con el hash si `echo` añade un salto de línea al final?"", ""cost"": 0}]"
+Caso guiado 2 · SHA-256 → MD5,UD01 · Cripto y codificación,"La contraseña es `ThisIsAMoreSecureHashFunction`. Calcula su **SHA-256** y, sobre ese resultado, su **MD5**. Envía `flag{md5}`.
+
+> Recuerda: además de la flag, rellena la **ficha de razonamiento** del reto. Pregunta a la IA por el *qué* y el *porqué*, nunca por la solución.",50,standard,visible,0,"[{""type"": ""static"", ""content"": ""flag{dd321a22229e0bbb5f8271e370b61eb0}"", ""data"": """"}]","guiado,hash","[{""content"": ""La salida de `sha256sum` lleva algo más que el hash. ¿Qué tienes que quitar antes de calcular el MD5?"", ""cost"": 0}]"
+Caso guiado 3 · Diccionario,UD01 · Cripto y codificación,"Encuentra el texto cuyo MD5 es `54f662a095fa3d5fbbdaac72d176701b`. Pásalo a **mayúsculas** y calcula su MD5. Envía `flag{md5}`.
+
+> Recuerda: además de la flag, rellena la **ficha de razonamiento** del reto. Pregunta a la IA por el *qué* y el *porqué*, nunca por la solución.",75,standard,visible,0,"[{""type"": ""static"", ""content"": ""flag{f395885371dd0ad12136d8a733e05e22}"", ""data"": """"}]","guiado,hash,diccionario","[{""content"": ""Un hash no se invierte, pero una contraseña común puede estar en una base de datos de hashes precalculados. Busca qué es CrackStation."", ""cost"": 0}]"
+Caso guiado 4 · Base64,UD01 · Cripto y codificación,"Decodifica este contenido en Base64 y obtendrás una contraseña. Envía `flag{md5}` con el MD5 de esa contraseña.
+
+```
+RW5ob3JhYnVlbmEuIExhIGNvbnRyYXNlw7FhIGVzOiByZWN1ZXJkYXF1ZWJhc2U2NE5PZXNjaWZyYXI=
+```
+
+> Recuerda: además de la flag, rellena la **ficha de razonamiento** del reto. Pregunta a la IA por el *qué* y el *porqué*, nunca por la solución.",50,standard,visible,0,"[{""type"": ""static"", ""content"": ""flag{cf9df460535b4ec175a464c6c120d3fe}"", ""data"": """"}]","guiado,codificacion","[{""content"": ""¿Hace falta una clave para leer Base64? ¿Qué te dice eso sobre si protege la información?"", ""cost"": 0}]"
+Reto 5 · Otra huella distinta,UD01 · Cripto y codificación,"La contraseña es `HashingIsOneWay2026`. Calcula su hash **SHA-1** y envía `flag{sha1}` (en minúsculas, tal cual lo devuelve la herramienta).
+
+> Recuerda: además de la flag, rellena la **ficha de razonamiento** del reto. Pregunta a la IA por el *qué* y el *porqué*, nunca por la solución.",100,standard,visible,0,"[{""type"": ""static"", ""content"": ""flag{98666584dca50be8bfc35461f4eabe0e31b887ad}"", ""data"": """"}]",hash,"[{""content"": ""Igual que `md5sum`, existe una herramienta para cada algoritmo de la familia SHA."", ""cost"": 10}, {""content"": ""La flag debe tener exactamente 40 caracteres hexadecimales dentro de las llaves."", ""cost"": 20}]"
+Reto 6 · El mensaje en otro alfabeto,UD01 · Cripto y codificación,"Esta cadena está en **hexadecimal**: `4b6572636b686f666673`
+
+Decodifícala y envía `flag{palabra}` respetando mayúsculas y minúsculas.
+
+> Recuerda: además de la flag, rellena la **ficha de razonamiento** del reto. Pregunta a la IA por el *qué* y el *porqué*, nunca por la solución.",100,standard,visible,0,"[{""type"": ""static"", ""content"": ""flag{Kerckhoffs}"", ""data"": """"}]",codificacion,"[{""content"": ""Cada byte son dos caracteres hexadecimales. Pregunta a la IA cómo convertir hexadecimal a texto con Python o con CyberChef."", ""cost"": 10}, {""content"": ""La palabra es el apellido de un criptógrafo del siglo XIX."", ""cost"": 20}]"
+Reto 7 · Base… ¿cuál?,UD01 · Cripto y codificación,"Esta cadena está en **Base32**: `MRSWMZLOONQV6ZLOL5YHE33GOVXGI2LEMFSA====`
+
+Decodifícala y envía `flag{texto}`.
+
+> Recuerda: además de la flag, rellena la **ficha de razonamiento** del reto. Pregunta a la IA por el *qué* y el *porqué*, nunca por la solución.",100,standard,visible,0,"[{""type"": ""static"", ""content"": ""flag{defensa_en_profundidad}"", ""data"": """"}]",codificacion,"[{""content"": ""Coreutils incluye una herramienta con el mismo nombre que la codificación."", ""cost"": 10}, {""content"": ""El texto es un principio de seguridad de tres palabras separadas por guiones bajos."", ""cost"": 20}]"
+Reto 8 · El primer cifrado de la historia,UD01 · Cripto y codificación,"Este texto está cifrado con **ROT13** (César con desplazamiento 13): `FrthevqnqCbeBfphevqnqAbShapvban`
+
+Descífralo y envía `flag{texto}`.
+
+> Recuerda: además de la flag, rellena la **ficha de razonamiento** del reto. Pregunta a la IA por el *qué* y el *porqué*, nunca por la solución.",150,standard,visible,0,"[{""type"": ""static"", ""content"": ""flag{SeguridadPorOscuridadNoFunciona}"", ""data"": """"}]",cifrado,"[{""content"": ""ROT13 es su propia inversa: aplicarlo dos veces devuelve el original."", ""cost"": 15}, {""content"": ""Pregunta a la IA cómo usar `tr` para sustituir unas letras por otras."", ""cost"": 30}]"
+Reto 9 · Capa sobre capa ⭐,UD01 · Cripto y codificación,"Cadena entregada: `NTA2NTZlNzQ2NTczNzQ2OTZlNjc0NTc0Njk2MzZm`
+
+Está en **Base64**. Al decodificarla obtendrás **hexadecimal**; al decodificar este, una **palabra**. Calcula el **MD5** de esa palabra y envía `flag{md5}`.
+
+> Recuerda: además de la flag, rellena la **ficha de razonamiento** del reto. Pregunta a la IA por el *qué* y el *porqué*, nunca por la solución.",300,standard,visible,0,"[{""type"": ""static"", ""content"": ""flag{c784ae85751ffee70b053ec8ea30c92a}"", ""data"": """"}]",combinado,"[{""content"": ""Deshaz las capas de fuera hacia dentro y fíjate en el aspecto de la cadena en cada paso."", ""cost"": 30}, {""content"": ""La palabra intermedia está relacionada con el nombre del módulo."", ""cost"": 60}]"
