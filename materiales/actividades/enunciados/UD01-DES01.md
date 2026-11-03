@@ -24,7 +24,7 @@ qué se enfrentan: quién podría atacarles, con qué y aprovechando qué debili
 
 ### Bloque C · Vulnerabilidades
 
-1. ¿De dónde viene el término *bug*? (pista: Grace Hopper y el Mark II, 1947).
+1. ¿De dónde viene el término *bug*?.
 2. Diferencia entre vulnerabilidad de **software** y de **hardware**. Pon un ejemplo de cada una (por ejemplo, Log4Shell, Meltdown o Spectre).
 3. ¿Qué es una vulnerabilidad de **día cero** (*zero-day*) y por qué hay empresas que pagan millones por ellas?
 4. ¿Qué son el **CVE**, el **CVSS** y el **CWE**? ¿Qué gravedad tiene una vulnerabilidad con CVSS 9,8?

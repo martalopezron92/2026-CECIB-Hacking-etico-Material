@@ -45,24 +45,6 @@ qué reglas y siguiendo qué metodología.
 
 ---
 
-
-### Glosario de la sesión
-
-| Término | Definición con tus palabras | Ejemplo |
-|---|---|---|
-| Amenaza | | |
-| Vulnerabilidad | | |
-| *Exploit* / *payload* | | |
-| *Malware* | | |
-| *Ransomware* | | |
-| Ingeniería social | | |
-| *MitM* | | |
-| *Zero-day* | | |
-| CVE | | |
-| CVSS | | |
-
----
-
 ## Autoevaluación al final de cada sesión
 
 Marca del 1 al 4 cuánto dominas cada idea (1 = nada, 4 = podría explicarla a otra persona).
