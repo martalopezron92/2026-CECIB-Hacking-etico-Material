@@ -29,7 +29,7 @@ flowchart LR
 
 | Sesión | Qué haces | ¿Cuenta para la nota? |
 |---|---|---|
-| **Descubrimiento** | Investigas los conceptos con los apuntes y la IA | **No.** Es formativa: te prepara para lo que sí se evalúa |
+| **Descubrimiento** | Investigas los conceptos con el libro y la IA | **No.** Es formativa: te prepara para lo que sí se evalúa |
 | **CTF** | Resuelves retos en la plataforma CTFd y explicas cómo | **Sí** |
 | **Laboratorio** | Atacas y defiendes máquinas en tu laboratorio y lo documentas | **Sí** |
 
@@ -57,7 +57,7 @@ No te la explica nadie: la investigas tú con tu equipo.
 
 | Fuente | Para qué la usas |
 |---|---|
-| 📘 Apuntes creados a partir del **Libro de texto**: *Hacking ético*, J. L. Berenguel y P. Esteban (Paraninfo, 2024) | Es la fuente principal. Cada pregunta indica el apartado que debes leer |
+| 📘 **Libro de texto**: *Hacking ético*, J. L. Berenguel y P. Esteban (Paraninfo, 2024) | Es la fuente principal. Cada pregunta indica el apartado que debes leer |
 | 🤖 **IA tutora** | Para que te explique lo que no entiendas, con ejemplos y analogías |
 | 🏛️ **Fuentes oficiales** (INCIBE, BOE, CVE, CCN-CERT) | Para comprobar datos: leyes, identificadores de vulnerabilidades, fechas |
 
@@ -79,7 +79,7 @@ flowchart TB
 | Tiempo | Actividad |
 |---|---|
 | 0–5 min | Briefing y reparto de los bloques según el rol de la semana |
-| 5–30 min | **Investigación individual** de tu bloque conlos apuntes y la IA |
+| 5–30 min | **Investigación individual** de tu bloque con el libro y la IA |
 | 30–45 min | **Puesta en común:** cada experto explica su bloque en 4 minutos y responde preguntas |
 | 45–50 min | El equipo completa el **glosario** y el **mapa conceptual** |
 | 50–60 min | **Quiz de autoevaluación** individual en Moodle |
@@ -94,7 +94,7 @@ equipo está entendiendo y no solo copiando.
 
 ## 3. Cómo usar la IA en el Descubrimiento
 
-La regla es sencilla: **primero lees los apuntes y después usas la IA para entender**. Tu respuesta
+La regla es sencilla: **primero lees el libro y después usas la IA para entender**. Tu respuesta
 debe estar escrita **con tus palabras** e incluir un **ejemplo propio**.
 
 | ❌ Así no aprendes | ✅ Así sí |
@@ -102,7 +102,7 @@ debe estar escrita **con tus palabras** e incluir un **ejemplo propio**.
 | «Responde a esta pregunta: ¿qué es la tríada CIA?» | «He leído que la seguridad se basa en confidencialidad, integridad y disponibilidad. Ponme un ejemplo de un instituto en el que falle cada una» |
 | «Dame los tipos de auditoría» | «No entiendo la diferencia entre caja gris y caja blanca. ¿Me lo explicas con una analogía?» |
 | Copiar la respuesta de la IA | «Esta es mi explicación de qué es un CVE: […]. ¿Es correcta? ¿Qué me falta?» |
-| Fiarte de la IA en leyes y fechas | Comprobar el artículo en los apuntes o en el BOE |
+| Fiarte de la IA en leyes y fechas | Comprobar el artículo en el libro o en el BOE |
 
 **Tipos de prompt que te ayudarán:**
 
@@ -119,9 +119,9 @@ debe estar escrita **con tus palabras** e incluir un **ejemplo propio**.
 
 ---
 
-## 4. Qué generas
+## 4. Qué entregas
 
-Al final de cada sesión, el equipo debe haber generado:
+Al final de cada sesión, el equipo sube a Moodle:
 
 | Entregable | Quién | Contenido |
 |---|---|---|
@@ -163,7 +163,7 @@ flowchart LR
 
 | Pregunta | Respuesta |
 |---|---|
-| ¿Quién me explica la teoría? | Nadie: la investigas con los apuntes, la IA y tu equipo |
+| ¿Quién me explica la teoría? | Nadie: la investigas con el libro, la IA y tu equipo |
 | ¿Qué hago yo? | Investigo mi bloque, se lo explico a mi equipo y completamos el glosario |
 | ¿Puedo usar la IA? | Sí, para entender. Nunca para copiar sus respuestas |
 | ¿Cuenta para la nota? | No. Pero sin el Descubrimiento no podrás superar los CTF ni el laboratorio |

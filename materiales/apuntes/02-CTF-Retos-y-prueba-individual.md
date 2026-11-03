@@ -147,18 +147,33 @@ flag también puntúa.
 
 ## 6. Cómo cuentan los CTF en tu nota
 
-### 6.1. Peso de cada actividad
+### 6.1. Qué criterios evalúa cada actividad
 
-Tu nota sale **solo de la parte práctica**:
+Tu nota sale **solo de la parte práctica**, y se calcula a partir de los **criterios de
+evaluación** (CE), no de las actividades. Cada actividad aporta nota a unos CE concretos, y la nota
+de cada CE es la media de las actividades que lo evalúan. Así queda en la UD1 (RA1, criterios a–g):
 
-| Instrumento | Peso | Ámbito | Actividad |
-|---|---|---|---|
-| **Prueba práctica individual (CTF)** | 40 % | Individual | CTF |
-| Informe técnico del laboratorio | 25 % | Equipo | Laboratorio |
-| Defensa oral | 20 % | Individual | Laboratorio |
-| **Fichas de razonamiento de los CTF** | 15 % | Equipo | CTF |
+| CE del RA1 | Actividades que lo evalúan |
+|---|---|
+| a) Terminología esencial | Fichas de razonamiento (CTF) |
+| b) Conceptos éticos y legales | Defensa oral |
+| c) Alcance y condiciones de un test de intrusión | Misión 0 e informe de laboratorio |
+| d) Elementos esenciales de seguridad | Prueba práctica individual (CTF) |
+| e) Fases de un ataque | Prueba individual, informe de laboratorio y defensa oral |
+| f) Tipos de vulnerabilidades | Prueba práctica individual (CTF) |
+| g) Tipos de ataque | Prueba individual e informe de laboratorio |
 
-Los CTF suman el **55 %** de la nota. El 60 % de la nota es **individual**: aunque trabajes en
+Como cada actividad evalúa un número distinto de criterios, unas influyen más que otras en tu nota
+del RA1:
+
+| Actividad | Ámbito | Influencia aproximada en el RA1 |
+|---|---|---|
+| Prueba práctica individual (CTF) | Individual | 40 % |
+| Informe técnico del laboratorio (con la Misión 0) | Equipo | 26 % |
+| Defensa oral | Individual | 19 % |
+| Fichas de razonamiento de los CTF | Equipo | 14 % |
+
+Los CTF influyen en torno al **55 %**. Cerca del 60 % es **individual**: aunque trabajes en
 equipo, cada persona tiene que demostrar lo que sabe.
 
 ### 6.2. Escala de niveles

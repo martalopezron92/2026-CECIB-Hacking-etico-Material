@@ -154,8 +154,17 @@ Del Laboratorio salen **tres** instrumentos de evaluación:
 
 ### 5.1. Misión 0: lista de cotejo
 
-La Misión 0 se califica comprobando que tu laboratorio cumple cada hito. Partes de un 10 y se
-resta **1 punto por cada hito que falte**.
+La Misión 0 se califica con una lista de cotejo: los hitos de tu laboratorio, la ficha con tres
+preguntas y la bitácora de IA.
+
+| Elemento | Cómo se puntúa | Puntos |
+|---|---|---|
+| **Hitos H1 a H6** | 1 punto por cada hito conseguido, comprobado en clase en tu pantalla | 6 |
+| **Ficha** (3 preguntas) | 1 punto por cada respuesta correcta y razonada | 3 |
+| **Bitácora de IA** | 1 punto si explicas el error, qué preguntaste y cómo lo resolviste | 1 |
+| **Total** | | **10** |
+
+Los hitos son:
 
 | Hito | Qué tienes que demostrar |
 |---|---|
@@ -166,8 +175,8 @@ resta **1 punto por cada hito que falte**.
 | H5 | Kali descubre DC-1 (`netdiscover`) y llega a ella (`ping`) |
 | H6 | Instantáneas guardadas de las dos máquinas |
 
-> **Ejemplo:** Lucía tiene todo correcto, pero no ha guardado las instantáneas. Le falta el H6,
-> así que su nota es **9**.
+> **Ejemplo:** Lucía consigue los seis hitos y entrega la bitácora, pero solo responde bien a dos
+> de las tres preguntas de la ficha. Su nota es 6 + 2 + 1 = **8**.
 
 ### 5.2. Informe técnico (rúbrica 2)
 
@@ -231,19 +240,34 @@ la pregunta socrática, *Aprobado* (5) en vocabulario y *Sobresaliente* (9) en v
 
 ## 6. Cómo cuenta el Laboratorio en tu nota
 
-### 6.1. Peso de cada actividad
+### 6.1. Qué criterios evalúa cada actividad
 
-Tu nota sale **solo de la parte práctica**:
+Tu nota sale **solo de la parte práctica**, y se calcula a partir de los **criterios de
+evaluación** (CE), no de las actividades. Cada actividad aporta nota a unos CE concretos, y la nota
+de cada CE es la media de las actividades que lo evalúan. Así queda en la UD1 (RA1, criterios a–g):
 
-| Instrumento | Peso | Ámbito | Actividad |
-|---|---|---|---|
-| Prueba práctica individual (CTF) | 40 % | Individual | CTF |
-| **Informe técnico del laboratorio** | 25 % | Equipo | Laboratorio |
-| **Defensa oral** | 20 % | Individual | Laboratorio |
-| Fichas de razonamiento de los CTF | 15 % | Equipo | CTF |
+| CE del RA1 | Actividades que lo evalúan |
+|---|---|
+| a) Terminología esencial | Fichas de razonamiento (CTF) |
+| b) Conceptos éticos y legales | Defensa oral |
+| c) Alcance y condiciones de un test de intrusión | Misión 0 e informe de laboratorio |
+| d) Elementos esenciales de seguridad | Prueba práctica individual (CTF) |
+| e) Fases de un ataque | Prueba individual, informe de laboratorio y defensa oral |
+| f) Tipos de vulnerabilidades | Prueba práctica individual (CTF) |
+| g) Tipos de ataque | Prueba individual e informe de laboratorio |
 
-El Laboratorio suma el **45 %** de la nota. La Misión 0 se califica como un informe de
-laboratorio y aporta nota a los criterios de evaluación b) y c) del RA1.
+Como cada actividad evalúa un número distinto de criterios, unas influyen más que otras en tu nota
+del RA1:
+
+| Actividad | Ámbito | Influencia aproximada en el RA1 |
+|---|---|---|
+| Prueba práctica individual (CTF) | Individual | 40 % |
+| Informe técnico del laboratorio (con la Misión 0) | Equipo | 26 % |
+| Defensa oral | Individual | 19 % |
+| Fichas de razonamiento de los CTF | Equipo | 14 % |
+
+El Laboratorio influye en torno al **45 %**. Cerca del 60 % es **individual**: aunque trabajes
+en equipo, cada persona tiene que demostrar lo que sabe.
 
 ### 6.2. Escala de niveles
 
