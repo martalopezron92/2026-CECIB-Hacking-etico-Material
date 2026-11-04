@@ -12,3 +12,9 @@
 
 # Ignorar cualquier archivo que contenga el nombre "examen" 
 *examen*
+
+# Dejar de ignorar ciertos archivos para que lo vean los alumnos
+!/materiales/practicas/enunciados/UD01_P01.md
+!/materiales/practicas/enunciados/UD01_FR01.md
+!/materiales/practicas/enunciados/UD01_CTF01.md
+!/materiales/practicas/enunciados/fichero.txt
