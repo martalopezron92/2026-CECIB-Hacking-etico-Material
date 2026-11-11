@@ -98,7 +98,7 @@ flowchart LR
 ### H2 · Instalar VirtualBox e importar Kali (30 min)
 
 Sigue los apartados 3.2, 3.3 y 3.5 de la guía de entorno
-([Guia-Kali-Windows-sincronizada-GitHub.md](../ENTORNO/Guia-Kali-Windows-sincronizada-GitHub.md)):
+([Guia-Kali-Windows-sincronizada-GitHub.md](./Guia-Kali-Windows-sincronizada-GitHub.md):
 
 1. Descarga VirtualBox y la imagen de Kali para VirtualBox.
 2. **Verifica el hash SHA256** de la descarga antes de usarla.
