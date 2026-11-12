@@ -1,4 +1,4 @@
-# UD1 · Descubrimiento · Amenazas, ataques y vulnerabilidades
+# UD1 · Descubrimiento · Test de intrusión: tipos, fases y metodología
 
 **Unidad didáctica 1 — Introducción al hacking ético**
 **Curso de Especialización en Ciberseguridad**
